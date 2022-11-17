@@ -17,7 +17,7 @@ module.exports = () => {
     plugins: [
       new HtmlWebpackPlugin({
         template: './index.html',
-        title: 'Text Editor'
+        title: 'Text_Editor'
       }),
       new InjectManifest({
         swSrc: './src-sw.js',
@@ -26,8 +26,8 @@ module.exports = () => {
       new WebpackPwaManifest({
         fingerprints: false,
         inject: true,
-        name: "Just Another Text Editor",
-        short_name: "Text Editor",
+        name: "Text_Editor",
+        short_name: "TextEd",
         description: "Text Editor with Syntax Highlighting",
         background_color: '#225ca3',
         theme_color: "#225ca3",
